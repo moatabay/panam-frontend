@@ -1,0 +1,45 @@
+.header-button {
+    background-color: #3c638d; /* Blue background */
+    border: 2px solid transparent; /* Remove border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for better spacing */
+    font-size: 16px; /* Font size */
+    margin: 0px 50px; /* Margins */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.6s ease; /* Smooth transition */
+}
+  
+.header-button:hover {
+    background-color: #662525; /* Darker blue on hover */
+}
+  
+.header-button:active {
+    background-color: #572727; /* Even darker blue on click */
+}
+
+/* ---------------------------------------------------------- */
+/* CONTROL-BUTTON */
+
+.control-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .control-button .icon {
+    margin-right: 8px;
+  }
+  
+  .control-button:hover {
+    background-color: #0056b3;
+  }
